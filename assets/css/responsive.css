@@ -1,0 +1,223 @@
+/**
+ * TRINY MASAJES - RESPONSIVE & ADAPTABILIDAD
+ * Cobertura móvil, tablet, escritorio y accesibilidad motriz.
+ */
+
+/* --- Tablet y Dispositivos Medianos (<= 1024px) --- */
+@media (max-width: 1024px) {
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-8);
+  }
+}
+
+/* --- Móviles y Pantallas Pequeñas (<= 768px) --- */
+@media (max-width: 768px) {
+  :root {
+    --container-padding: 1.25rem;
+    --space-16: 3rem;
+    --space-12: 2.25rem;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  .btn-menu-toggle {
+    display: inline-flex;
+  }
+
+  /* Menú Móvil Lateral */
+  .mobile-nav-panel {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 85%;
+    max-width: 320px;
+    height: 100vh;
+    background-color: #FFFFFF;
+    z-index: 2500;
+    padding: var(--space-6);
+    box-shadow: var(--shadow-drawer);
+    transform: translateX(100%);
+    transition: transform var(--transition-normal);
+    overflow-y: auto;
+  }
+
+  .mobile-nav-panel.is-open {
+    transform: translateX(0);
+  }
+
+  .mobile-nav-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(23, 43, 77, 0.6);
+    backdrop-filter: blur(2px);
+    z-index: 2400;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity var(--transition-normal), visibility var(--transition-normal);
+  }
+
+  .mobile-nav-overlay.is-visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .mobile-nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: var(--space-4);
+    border-bottom: 1px solid var(--color-border-light);
+    margin-bottom: var(--space-6);
+  }
+
+  .mobile-nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+
+  .mobile-nav-link {
+    font-size: var(--text-md);
+    font-family: var(--font-sans);
+    font-weight: 600;
+    color: var(--color-blue-night);
+    text-decoration: none;
+    display: block;
+    padding: var(--space-1) 0;
+  }
+
+  .mobile-nav-link:hover,
+  .mobile-nav-link.active {
+    color: var(--color-gold-dark);
+  }
+
+  .mobile-nav-footer {
+    margin-top: auto;
+    padding-top: var(--space-6);
+    border-top: 1px solid var(--color-border-light);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-input-wrap {
+    width: 100%;
+  }
+
+  .wheel-canvas-container {
+    width: 280px;
+    height: 280px;
+  }
+
+  /* Ajustes en Wizard de Reservas Múltiples */
+  .booking-progress-step .booking-step-label {
+    display: none;
+  }
+
+  .booking-service-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-2);
+  }
+
+  .booking-service-controls {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .cart-drawer {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .service-actions-row,
+  .product-actions-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .service-qty-controls {
+    justify-content: center;
+  }
+}
+
+/* --- Accesibilidad Motriz: Reducción de Movimiento --- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .card:hover,
+  .gallery-item:hover img,
+  .card:hover .card-img-wrap img {
+    transform: none !important;
+  }
+
+  .loading-spinner {
+    animation: none !important;
+  }
+}
+
+/* --- Impresión Limpia --- */
+@media print {
+  .site-header,
+  .site-footer,
+  .btn,
+  .filter-bar,
+  .wheel-wrapper,
+  .modal-overlay,
+  .loading-screen,
+  .cart-drawer {
+    display: none !important;
+  }
+
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+  }
+
+  .section {
+    padding: 1rem 0 !important;
+  }
+}

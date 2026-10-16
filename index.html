@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Triny Masajes | Maderoterapia, Shiatsu y Masajes a Domicilio y Playas</title>
+  <meta name="description" content="Triny Masajes: bienestar terapéutico exclusivo a domicilio en Lima y condominios de playa del Sur. Especialistas en maderoterapia, Shiatsu, reflexología y masoterapia.">
+  <meta name="keywords" content="masajes a domicilio, maderoterapia lima, shiatsu peru, masajes playa blanca, masajes asia peru, drenaje linfatico, masajes descontracturantes">
+  <meta name="author" content="Triny Masajes - Grupo Inversiones Baldeón Flores SAC">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://trinymasajes.com/">
+
+  <!-- Open Graph / Redes Sociales -->
+  <meta property="og:type" content="business.business">
+  <meta property="og:title" content="Triny Masajes | Bienestar a Domicilio y en Playas del Sur">
+  <meta property="og:description" content="Relájate desde la comodidad de tu hogar o casa de playa con nuestras terapeutas especializadas en maderoterapia, Shiatsu y masoterapia.">
+  <meta property="og:image" content="assets/img/flyer para carrousel.png">
+  <meta property="og:url" content="https://trinymasajes.com/">
+  <meta property="og:locale" content="es_PE">
+
+  <!-- Favicon e Icono de Pestaña -->
+  <link rel="icon" type="image/jpeg" href="assets/img/Logo de triny.jpg">
+  <link rel="shortcut icon" type="image/jpeg" href="assets/img/Logo de triny.jpg">
+  <link rel="apple-touch-icon" href="assets/img/Logo de triny.jpg">
+
+  <!-- Tipografías de Calidad Editorial -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Estilos Modulares -->
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+  <!-- Schema.org JSON-LD Estructurado -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "name": "Triny Masajes",
+    "legalName": "Grupo Inversiones Baldeón Flores SAC",
+    "image": "https://trinymasajes.com/assets/img/Logo%20de%20triny.jpg",
+    "description": "Centro de masajes terapéuticos y maderoterapia a domicilio en Lima y playas del Sur del Perú.",
+    "telephone": "+51986100444",
+    "email": "soporte@trinymasajes.com",
+    "priceRange": "S/ 100",
+    "currenciesAccepted": "PEN",
+    "paymentAccepted": "Efectivo, Transferencia, Yape, Plin",
+    "areaServed": [
+      { "@type": "AdministrativeArea", "name": "Lima Metropolitana" },
+      { "@type": "AdministrativeArea", "name": "Playas del Sur: Playa Blanca, Playa Misterio km 117, Las Lagunas, Cocoa, Asia" }
+    ],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "08:00",
+        "closes": "20:00"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- PANTALLA DE CARGA (LOADING SCREEN) -->
+  <div id="loadingScreen" class="loading-screen" role="status" aria-live="polite">
+    <div class="loading-logo-wrap">
+      <img src="assets/img/Logo de triny.jpg" alt="Triny Masajes">
+    </div>
+    <div class="loading-spinner" aria-hidden="true"></div>
+    <span class="loading-text">Preparando tu experiencia de bienestar...</span>
+  </div>
+
+  <!-- Enlace accesible de salto al contenido -->
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- Encabezado y Navegación Principal -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#" class="site-logo" aria-label="Triny Masajes - Inicio">
+        <img src="assets/img/Logo de triny.jpg" alt="Logotipo Triny Masajes" width="48" height="48">
+        <div class="logo-text-wrap">
+          <span class="logo-title">Triny</span>
+          <span class="logo-subtitle">Masajes</span>
+        </div>
+      </a>
+
+      <nav class="nav-desktop-wrap" role="navigation" aria-label="Menú principal">
+        <ul class="nav-desktop">
+          <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+          <li><a href="#servicios" class="nav-link">Masajes (S/ 100)</a></li>
+          <li><a href="#paquetes" class="nav-link">Paquetes</a></li>
+          <li><a href="#tienda" class="nav-link">Tienda</a></li>
+          <li><a href="#galeria" class="nav-link">Cobertura de Playas</a></li>
+          <li><a href="#ruleta" class="nav-link">Ruleta</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contacto" class="nav-link">Atención</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Botón de Carrito Unificado -->
+        <button type="button" class="btn-header-cart" id="headerCartBtn" aria-label="Abrir carrito de masajes y productos">
+          🛒 <span style="font-size: 0.85rem;">Carrito</span>
+          <span class="cart-count-badge" id="cartCountBadge" style="display:none;">0</span>
+        </button>
+
+        <!-- Botón Reservar destacado -->
+        <button type="button" class="btn btn-primary btn-sm action-open-booking" aria-label="Abrir sistema de reservas múltiples">
+          Reservar Cita
+        </button>
+
+        <!-- Menú Hamburguesa Móvil -->
+        <button type="button" class="btn-menu-toggle" id="btnMenuToggle" aria-expanded="false" aria-controls="mobileNavPanel" aria-label="Abrir menú de navegación">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Panel Menú Móvil -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay" aria-hidden="true"></div>
+  <aside class="mobile-nav-panel" id="mobileNavPanel" role="dialog" aria-modal="true" aria-label="Menú de navegación móvil">
+    <div class="mobile-nav-header">
+      <div class="site-logo">
+        <img src="assets/img/Logo de triny.jpg" alt="Triny Masajes" width="40" height="40">
+        <span class="logo-title" style="font-size: 1.25rem;">Triny</span>
+      </div>
+      <button type="button" class="modal-close-btn" id="btnMenuClose" aria-label="Cerrar menú de navegación">
+        ✕
+      </button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="#nosotros" class="mobile-nav-link">Nosotros</a></li>
+      <li><a href="#servicios" class="mobile-nav-link">Catálogo de Masajes (S/ 100)</a></li>
+      <li><a href="#paquetes" class="mobile-nav-link">Paquetes de Sesiones</a></li>
+      <li><a href="#tienda" class="mobile-nav-link">Tienda de Productos</a></li>
+      <li><a href="#galeria" class="mobile-nav-link">Playas y Residencias</a></li>
+      <li><a href="#ruleta" class="mobile-nav-link">Ruleta de Descuentos</a></li>
+      <li><a href="#faq" class="mobile-nav-link">Preguntas Frecuentes</a></li>
+      <li><a href="#contacto" class="mobile-nav-link">Atención al Cliente</a></li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <button type="button" class="btn btn-primary btn-block action-open-booking">
+        Reservar Masajes
+      </button>
+      <a href="https://wa.me/51986100444" class="btn btn-whatsapp btn-block" target="_blank" rel="noopener noreferrer">
+        WhatsApp: 986 100 444
+      </a>
+    </div>
+  </aside>
+
+  <!-- Contenido Principal -->
+  <main id="main-content" role="main">
+
+    <!-- HERO SECTION -->
+    <section class="section" style="padding-top: var(--space-12); padding-bottom: var(--space-12); background: linear-gradient(180deg, var(--color-bg-secondary) 0%, #FFFFFF 100%);">
+      <div class="container">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: var(--space-10); align-items: center;">
+          <div>
+            <span class="section-eyebrow" style="color: var(--color-gold-dark);">Servicio Exclusivo a Domicilio y en Playas</span>
+            <h1 style="margin-bottom: var(--space-4); color: var(--color-blue-night);">Relájate desde la comodidad de tu Hogar.</h1>
+            <p class="section-lead" style="margin-bottom: var(--space-6);">
+              Llevamos camillas clínicas ergonómicas, toallas esterilizadas, aceites botánicos y terapeutas acreditadas directamente a tu residencia en Lima y condominios privados de playa en el Sur chico.
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: var(--space-3); margin-bottom: var(--space-8);">
+              <button type="button" class="btn btn-primary btn-lg action-open-booking" id="btnHeroReservar">
+                Reservar Sesiones (S/ 100)
+              </button>
+              <a href="https://wa.me/51986100444?text=Hola%20Triny%20Masajes%2C%20quisiera%20solicitar%20informaci%C3%B3n%20para%20una%20sesi%C3%B3n%20a%20domicilio." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg" id="btnHeroContacto">
+                💬 WhatsApp Oficial
+              </a>
+            </div>
+            <div style="display: flex; gap: var(--space-6); border-top: 1px solid var(--color-border-light); padding-top: var(--space-4); font-size: var(--text-xs); color: var(--color-text-reading);">
+              <div>
+                <strong style="display: block; color: var(--color-blue-night); font-size: var(--text-sm);">Tarifa Plana Accesible</strong>
+                Todos los masajes a <strong>S/ 100</strong> (60 min)
+              </div>
+              <div>
+                <strong style="display: block; color: var(--color-blue-night); font-size: var(--text-sm);">Reserva Múltiple</strong>
+                Elige varios masajes en una sola solicitud
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div style="border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); border: 1px solid var(--color-border-light); background-color: var(--color-blue-night);">
+              <img src="assets/img/flyer para carrousel.png" alt="Triny Masajes - Terapeutas y atención a domicilio" width="600" height="400" style="width: 100%; height: auto; object-fit: cover;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE NOSOTROS / VALOR DE MARCA -->
+    <section class="section" id="nosotros">
+      <div class="container">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: var(--space-12); align-items: center;">
+          <div>
+            <img src="assets/img/PLAYA MISTERIO.jpg" alt="Terapeuta de Triny Masajes con camilla profesional en Playa Misterio km 117" width="500" height="600" style="border-radius: var(--radius-md); box-shadow: var(--shadow-md); width: 100%; max-height: 520px; object-fit: cover;">
+          </div>
+          <div>
+            <span class="section-eyebrow" style="color: var(--color-gold-dark);">Triny Masajes • Baldeón Flores SAC</span>
+            <h2 style="color: var(--color-blue-night);">Experiencia y descanso en tus espacios favoritos</h2>
+            <p>
+              En <strong>Triny Masajes</strong> nos especializamos en transformar tu sala, terraza o jardín en un santuario terapéutico. Evita el tráfico y los desplazamientos: nosotras acudimos con todo el equipamiento necesario.
+            </p>
+            <p>
+              Nuestro equipo cuenta con amplia formación en <strong>maderoterapia anatómica</strong>, técnica tradicional <strong>Shiatsu</strong> sobre meridianos, masajes descontracturantes de tejido profundo y drenaje linfático.
+            </p>
+            <div class="grid grid-2" style="margin-top: var(--space-6); gap: var(--space-4);">
+              <div style="padding: var(--space-4); background-color: var(--color-bg-secondary); border-radius: var(--radius-sm); border: 1px solid var(--color-border-light);">
+                <h3 style="font-size: var(--text-base); color: var(--color-blue-night); margin-bottom: 4px;">Bioseguridad de Grado Clínico</h3>
+                <p style="font-size: var(--text-xs); margin: 0; color: var(--color-text-reading);">Campos y sábanas descartables individuales en cada cita y desinfección rigurosa de camillas.</p>
+              </div>
+              <div style="padding: var(--space-4); background-color: var(--color-bg-secondary); border-radius: var(--radius-sm); border: 1px solid var(--color-border-light);">
+                <h3 style="font-size: var(--text-base); color: var(--color-blue-night); margin-bottom: 4px;">Puntualidad en Playas del Sur</h3>
+                <p style="font-size: var(--text-xs); margin: 0; color: var(--color-text-reading);">Coordinación de ingreso y protocolos en Playa Blanca, Misterio, Las Lagunas, Cocoa y Asia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATÁLOGO DE SERVICIOS (23 SERVICIOS A S/ 100) -->
+    <section class="section section-alt" id="servicios">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow" style="color: var(--color-gold-dark);">Catálogo Actualizado</span>
+          <h2 class="section-title" style="color: var(--color-blue-night);">Nuestros Masajes y Tratamientos</h2>
+          <p class="section-lead">
+            Tarifa plana y transparente: <strong>60 minutos por S/ 100</strong> en cada servicio. Puedes seleccionar uno o varios tipos de masajes y combinarlos en tu reserva o agregarlos a tu carrito.
+          </p>
+        </div>
+
+        <!-- Filtros de categoría -->
+        <div class="filter-bar">
+          <div class="filter-group" role="group" aria-label="Filtrar servicios por categoría">
+            <button type="button" class="filter-btn services-filter-btn active" data-category="all" aria-pressed="true">Todos (23)</button>
+            <button type="button" class="filter-btn services-filter-btn" data-category="relajante" aria-pressed="false">Relajación & Calma</button>
+            <button type="button" class="filter-btn services-filter-btn" data-category="terapeutico" aria-pressed="false">Terapia & Descontracturante</button>
+            <button type="button" class="filter-btn services-filter-btn" data-category="maderoterapia" aria-pressed="false">Maderoterapia & Estética</button>
+            <button type="button" class="filter-btn services-filter-btn" data-category="facial" aria-pressed="false">Cuidado Facial</button>
+          </div>
+          <span style="font-size: var(--text-xs); color: var(--color-text-reading);">Precio: S/ 100 c/u • 60 minutos</span>
+        </div>
+
+        <!-- Grid de los 23 servicios -->
+        <div class="grid grid-3" id="servicesContainer" aria-live="polite">
+          <!-- Inyección dinámica vía services.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- RESERVAS MÚLTIPLES BANNER DESTACADO -->
+    <section class="section" style="background-color: var(--color-blue-night); color: #FFFFFF; padding: var(--space-12) 0;">
+      <div class="container text-center" style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <span class="badge badge-champagne" style="margin-bottom: var(--space-3); display: inline-block;">Novedad en Triny Masajes</span>
+        <h2 style="color: #FFFFFF; font-size: clamp(2rem, 4vw, 2.75rem); margin-bottom: var(--space-4);">¿Deseas masajes para ti y tus acompañantes?</h2>
+        <p style="color: var(--color-text-light-secondary); font-size: var(--text-lg); line-height: var(--leading-relaxed); margin-bottom: var(--space-6);">
+          Ahora puedes solicitar múltiples tipos de masajes en una sola reserva. Por ejemplo: 1 Masaje Relajante (S/ 100) + 2 Masajes Descontracturantes (S/ 200). Te calculamos el total al instante y coordinamos por WhatsApp.
+        </p>
+        <button type="button" class="btn btn-gold btn-lg action-open-booking">
+          Iniciar Reserva Múltiple
+        </button>
+      </div>
+    </section>
+
+    <!-- PROMOCIONES Y PAQUETES -->
+    <section class="section" id="paquetes">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow" style="color: var(--color-gold-dark);">Planes Preferenciales</span>
+          <h2 class="section-title" style="color: var(--color-blue-night);">Paquetes Especiales de Sesiones</h2>
+          <p class="section-lead">Diseñados para parejas en casas de playa, familias o tratamientos continuos con ahorro real.</p>
+        </div>
+
+        <div class="grid grid-3" id="promotionsContainer">
+          <!-- Inyección dinámica vía promotions.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- TIENDA DE PRODUCTOS DE BIENESTAR -->
+    <section class="section section-alt" id="tienda">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow" style="color: var(--color-gold-dark);">Autocuidado en Casa</span>
+          <h2 class="section-title" style="color: var(--color-blue-night);">Tienda de Bienestar</h2>
+          <p class="section-lead">Aceites esenciales botánicos, cremas moldeadoras y artículos de aromaterapia con entrega a domicilio o llevados por la terapeuta en tu cita.</p>
+        </div>
+
+        <!-- Filtros de Productos: Búsqueda y Ordenamiento -->
+        <div class="filter-bar">
+          <div class="filter-group" role="group" aria-label="Filtrar productos por categoría">
+            <button type="button" class="filter-btn product-filter-btn active" data-category="all" aria-pressed="true">Todos (12)</button>
+            <button type="button" class="filter-btn product-filter-btn" data-category="aceites" aria-pressed="false">Aceites</button>
+            <button type="button" class="filter-btn product-filter-btn" data-category="cremas" aria-pressed="false">Cremas</button>
+            <button type="button" class="filter-btn product-filter-btn" data-category="sales-exfoliantes" aria-pressed="false">Sales y Exfoliantes</button>
+            <button type="button" class="filter-btn product-filter-btn" data-category="aromaterapia" aria-pressed="false">Aromaterapia</button>
+          </div>
+
+          <div style="display: flex; gap: var(--space-3); flex-wrap: wrap;">
+            <div class="search-input-wrap">
+              <span class="search-icon" aria-hidden="true">🔍</span>
+              <input type="search" class="form-input" id="productSearchInput" placeholder="Buscar producto..." aria-label="Buscar producto en la tienda">
+            </div>
+
+            <select class="form-select" id="productSortSelect" style="width: auto; min-width: 170px;" aria-label="Ordenar productos">
+              <option value="default">Recomendados</option>
+              <option value="price-asc">Precio: Menor a Mayor</option>
+              <option value="price-desc">Precio: Mayor a Menor</option>
+              <option value="name-asc">Nombre (A - Z)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Grid de Productos -->
+        <div class="grid grid-3" id="productsContainer" aria-live="polite">
+          <!-- Inyección dinámica vía products.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERÍA REAL Y COBERTURA EN PLAYAS -->
+    <section class="section" id="galeria">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow" style="color: var(--color-gold-dark);">Fotografía Verificada</span>
+          <h2 class="section-title" style="color: var(--color-blue-night);">Nuestra Cobertura en Playas del Sur</h2>
+          <p class="section-lead">Atención con camilla profesional en Playa Blanca, Misterio, Las Lagunas, Cocoa y toda la zona de Asia.</p>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Inyección dinámica vía gallery.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- RULETA DE FIDELIZACIÓN (CANVAS) -->
+    <section class="section section-alt" id="ruleta">
+      <div class="container container-narrow">
+        <div class="section-header">
+          <span class="section-eyebrow" style="color: var(--color-gold-dark);">Fidelidad Triny</span>
+          <h2 class="section-title" style="color: var(--color-blue-night);">Ruleta de Premios</h2>
+          <p class="section-lead">
+            Gira y obtén un cupón verificado por nuestro servidor para tu próxima sesión (máximo 1 giro diario por persona).
+          </p>
+        </div>
+
+        <div class="wheel-wrapper">
+          <div class="wheel-canvas-container">
+            <div class="wheel-indicator" aria-hidden="true"></div>
+            <canvas id="wheelCanvas" width="340" height="340" role="img" aria-label="Ruleta de premios y descuentos"></canvas>
+            <div class="wheel-center-pin" aria-hidden="true"></div>
+          </div>
+
+          <button type="button" class="btn btn-primary btn-lg" id="wheelSpinBtn">
+            Girar Ruleta
+          </button>
+
+          <p style="font-size: var(--text-xs); color: var(--color-text-reading); margin-top: var(--space-3); text-align: center;">
+            Condiciones: Cupones intransferibles válidos por 48 horas en reservas directas.
+          </p>
+
+          <div id="wheelResultBox" style="margin-top: var(--space-4); width: 100%; display: none;" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PREGUNTAS FRECUENTES (FAQ ACORDEÓN) -->
+    <section class="section" id="faq">
+      <div class="container container-narrow">
+        <div class="section-header">
+          <span class="section-eyebrow" style="color: var(--color-gold-dark);">Dudas Habituales</span>
+          <h2 class="section-title" style="color: var(--color-blue-night);">Preguntas Frecuentes</h2>
+          <p class="section-lead">Todo lo que necesitas saber sobre nuestras sesiones a domicilio y reservas múltiples.</p>
+        </div>
+
+        <div class="accordion" id="faqAccordion">
+          <!-- Inyección dinámica vía faq.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULARIO DE ATENCIÓN AL CLIENTE (WHATSAPP AUTOMATIZADO) -->
+    <section class="section section-alt" id="contacto">
+      <div class="container">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: var(--space-12);">
+          <div>
+            <span class="section-eyebrow" style="color: var(--color-gold-dark);">Atención Directa</span>
+            <h2 style="color: var(--color-blue-night);">Canal de Atención Oficial</h2>
+            <p>
+              ¿Tienes dudas sobre los tratamientos, deseas modificar una reserva o consultar el acceso a tu condominio? Completa el formulario y se abrirá una conversación en WhatsApp con tu consulta estructurada.
+            </p>
+
+            <div style="margin-top: var(--space-6); display: flex; flex-direction: column; gap: var(--space-4);">
+              <div style="display: flex; gap: var(--space-3); align-items: center;">
+                <span style="font-size: 1.5rem;" aria-hidden="true">📱</span>
+                <div>
+                  <strong style="display: block; color: var(--color-blue-night);">WhatsApp Oficial:</strong>
+                  <a href="https://wa.me/51986100444" target="_blank" rel="noopener noreferrer" style="font-weight: 600; color: var(--color-blue-elegant);">+51 986 820 428</a>
+                  <span style="color: var(--color-text-reading); font-size: var(--text-xs);"> (Secundario: +51 994 138 981)</span>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: var(--space-3); align-items: center;">
+                <span style="font-size: 1.5rem;" aria-hidden="true">✉️</span>
+                <div>
+                  <strong style="display: block; color: var(--color-blue-night);">Correo de Atención:</strong>
+                  <a href="mailto:soporte@trinymasajes.com" style="color: var(--color-blue-elegant);">soporte@trinymasajes.com</a>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: var(--space-3); align-items: center;">
+                <span style="font-size: 1.5rem;" aria-hidden="true">🕒</span>
+                <div>
+                  <strong style="display: block; color: var(--color-blue-night);">Horario de Atención:</strong>
+                  <span style="color: var(--color-text-reading);">Lunes a Domingo de 09:00 a 22:00 (Previa cita)</span>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: var(--space-8);">
+              <a href="https://wa.me/51986100444" id="contactDirectWaBtn" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg">
+                💬 Conversar por WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Formulario accesible de atención -->
+          <div style="background-color: #FFFFFF; padding: var(--space-8); border-radius: var(--radius-md); border: 1px solid var(--color-border-light); box-shadow: var(--shadow-sm);">
+            <h3 style="margin-bottom: var(--space-4); color: var(--color-blue-night);">Formulario de Atención</h3>
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="contactName" class="form-label">Nombre y Apellido <span class="required-indicator">*</span></label>
+                <input type="text" id="contactName" name="contactName" class="form-input" required autocomplete="name">
+                <span class="form-error" id="contactName-error"></span>
+              </div>
+
+              <div class="grid grid-2" style="gap: var(--space-3);">
+                <div class="form-group">
+                  <label for="contactPhone" class="form-label">WhatsApp <span class="required-indicator">*</span></label>
+                  <input type="tel" id="contactPhone" name="contactPhone" class="form-input" placeholder="986 820 428" required autocomplete="tel">
+                  <span class="form-error" id="contactPhone-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactEmail" class="form-label">Correo electrónico (opcional)</label>
+                  <input type="email" id="contactEmail" name="contactEmail" class="form-input" placeholder="tu@correo.com" autocomplete="email">
+                  <span class="form-error" id="contactEmail-error"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contactSubject" class="form-label">Motivo de la consulta <span class="required-indicator">*</span></label>
+                <select id="contactSubject" name="contactSubject" class="form-select" required>
+                  <option value="">-- Selecciona el motivo --</option>
+                  <option value="Consulta sobre masajes">Consulta sobre masajes</option>
+                  <option value="Consulta sobre productos">Consulta sobre productos</option>
+                  <option value="Modificar una reserva">Modificar una reserva</option>
+                  <option value="Cancelar una reserva">Cancelar una reserva</option>
+                  <option value="Consultar una promoción">Consultar una promoción</option>
+                  <option value="Información sobre horarios">Información sobre horarios</option>
+                  <option value="Otra consulta">Otra consulta</option>
+                </select>
+                <span class="form-error" id="contactSubject-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactRelatedItem" class="form-label">Servicio o producto relacionado (opcional)</label>
+                <input type="text" id="contactRelatedItem" name="contactRelatedItem" class="form-input" placeholder="Ej: Masaje Relajante o Aceite de Lavanda">
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage" class="form-label">Mensaje o detalle <span class="required-indicator">*</span></label>
+                <textarea id="contactMessage" name="contactMessage" class="form-textarea" rows="3" required placeholder="Escribe aquí tu consulta..."></textarea>
+                <span class="form-error" id="contactMessage-error"></span>
+              </div>
+
+              <div id="contactResultBox" style="display: none; margin-bottom: var(--space-4);"></div>
+
+              <button type="submit" class="btn btn-whatsapp btn-block" id="contactSubmitBtn">
+                💬 Enviar por WhatsApp
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="site-logo" style="margin-bottom: var(--space-4);">
+            <img src="assets/img/Logo de triny.jpg" alt="Triny Masajes" width="44" height="44" style="background:#FFF;">
+            <div class="logo-text-wrap">
+              <span class="logo-title" style="color: #FFFFFF;">Triny</span>
+              <span class="logo-subtitle" style="color: var(--color-gold-champagne);">Masajes</span>
+            </div>
+          </div>
+          <p style="font-size: var(--text-sm); line-height: var(--leading-relaxed);">
+            Especialistas en bienestar terapéutico, maderoterapia corporal y Shiatsu a domicilio. Llevamos confort y descanso a tu hogar y casas de playa en el Sur de Lima.
+          </p>
+          <p style="font-size: var(--text-xs); color: var(--color-text-reading); margin-top: var(--space-3);">
+            Razón Social: <strong>GRUPO INVERSIONES BALDEÓN FLORES SAC</strong><br>
+            RUC: 20608756181
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 style="color: #FFFFFF;">Navegación</h4>
+          <ul class="footer-nav">
+            <li><a href="#servicios">Masajes (S/ 100)</a></li>
+            <li><a href="#paquetes">Paquetes Especiales</a></li>
+            <li><a href="#tienda">Tienda de Productos</a></li>
+            <li><a href="#galeria">Playas Atendidas</a></li>
+            <li><a href="#ruleta">Ruleta de Premios</a></li>
+            <li><a href="#faq">Preguntas Frecuentes</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 style="color: #FFFFFF;">Playas Atendidas</h4>
+          <ul class="footer-nav">
+            <li><span>Playa Blanca</span></li>
+            <li><span>Playa Misterio km 117</span></li>
+            <li><span>Las Lagunas</span></li>
+            <li><span>Cocoa & Asia</span></li>
+            <li><span>Lima Metropolitana</span></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 style="color: #FFFFFF;">Atención</h4>
+          <p style="font-size: var(--text-sm); margin-bottom: var(--space-2);">
+            WhatsApp: <a href="https://wa.me/51986100444" style="color: #FFFFFF;">+51 986 820 428</a>
+          </p>
+          <p style="font-size: var(--text-sm); margin-bottom: var(--space-4);">
+            Correo: <a href="mailto:soporte@trinymasajes.com" style="color: #FFFFFF;">soporte@trinymasajes.com</a>
+          </p>
+          <button type="button" class="btn btn-outline-light btn-sm action-open-booking">
+            Agendar Sesiones
+          </button>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © <span id="currentYear">2026</span> Triny Masajes. Todos los derechos reservados.
+        </div>
+        <div style="display: flex; gap: var(--space-4); align-items: center;">
+          <a href="#" id="btnFooterCRM" style="color: var(--color-text-reading); font-size: var(--text-xs);">Acceso Operativo (CRM)</a>
+          <span style="color: rgba(255,255,255,0.2);">•</span>
+          <span style="color: var(--color-text-reading);">Libro de Reclamaciones Virtual</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODAL WIZARD: RESERVAS MÚLTIPLES EN 5 PASOS
+       ========================================================================== -->
+  <div class="modal-overlay" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="bookingModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-large">
+      <div class="modal-header">
+        <h3 class="modal-title" id="bookingModalTitle" style="color: var(--color-blue-night);">Reserva tus Masajes</h3>
+        <button type="button" class="modal-close-btn" id="bookingModalClose" aria-label="Cerrar ventana de reserva">
+          ✕
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Barra de progreso de 5 pasos -->
+        <div class="booking-progress-bar" role="progressbar" aria-label="Progreso de la reserva">
+          <div class="booking-progress-step is-active" id="progressStep1">
+            <div class="booking-step-circle">1</div>
+            <span class="booking-step-label">Masajes</span>
+          </div>
+          <div class="booking-progress-step" id="progressStep2">
+            <div class="booking-step-circle">2</div>
+            <span class="booking-step-label">Fecha & Hora</span>
+          </div>
+          <div class="booking-progress-step" id="progressStep3">
+            <div class="booking-step-circle">3</div>
+            <span class="booking-step-label">Tus Datos</span>
+          </div>
+          <div class="booking-progress-step" id="progressStep4">
+            <div class="booking-step-circle">4</div>
+            <span class="booking-step-label">Resumen</span>
+          </div>
+        </div>
+
+        <!-- PASO 1: Selección de Masajes Múltiples -->
+        <div class="booking-step-view" id="bookingStepView1">
+          <h4 style="font-size: var(--text-base); color: var(--color-blue-night); margin-bottom: var(--space-2);">
+            Paso 1: Elige uno o varios masajes y la cantidad de sesiones
+          </h4>
+          <p style="font-size: var(--text-xs); color: var(--color-text-reading); margin-bottom: var(--space-4);">
+            Puedes añadir diferentes masajes para ti o tus acompañantes. Todos tienen duración de 60 minutos a <strong>S/ 100 por sesión</strong>.
+          </p>
+
+          <div class="form-group" style="margin-bottom: var(--space-4);">
+            <label for="step1QuickSelect" class="form-label" style="font-size: var(--text-xs);">Añadir masaje a la reserva:</label>
+            <select id="step1QuickSelect" class="form-select">
+              <!-- Llenado dinámico vía bookings.js -->
+            </select>
+          </div>
+
+          <div id="bookingStepErrorBox1" class="booking-step-error"></div>
+
+          <!-- Listado interactivo de masajes seleccionados -->
+          <div id="step1ServicesList" style="max-height: 260px; overflow-y: auto; margin-bottom: var(--space-4);"></div>
+
+          <!-- Barra de subtotal en tiempo real -->
+          <div id="step1SubtotalBar" style="padding: var(--space-3); background-color: var(--color-bg-secondary); border-radius: var(--radius-sm); border: 1px solid var(--color-border-light); font-size: var(--text-sm); display: flex; justify-content: space-between; align-items: center;">
+            <strong>Total Estimado: S/ 0</strong>
+          </div>
+        </div>
+
+        <!-- PASO 2: Fecha y Horario -->
+        <div class="booking-step-view" id="bookingStepView2" style="display: none;">
+          <h4 style="font-size: var(--text-base); color: var(--color-blue-night); margin-bottom: var(--space-2);">
+            Paso 2: Fecha deseada y horario preferido
+          </h4>
+          <p style="font-size: var(--text-xs); color: var(--color-text-reading); margin-bottom: var(--space-4);">
+            Elige cuándo te gustaría recibir tus terapias.
+          </p>
+
+          <div id="bookingStepErrorBox2" class="booking-step-error"></div>
+
+          <div class="grid grid-2" style="gap: var(--space-4); margin-bottom: var(--space-4);">
+            <div class="form-group">
+              <label for="step2Date" class="form-label">Fecha de la sesión <span class="required-indicator">*</span></label>
+              <input type="date" id="step2Date" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+              <label for="step2Time" class="form-label">Horario de inicio preferido <span class="required-indicator">*</span></label>
+              <select id="step2Time" class="form-select" required>
+                <option value="08:30">08:30 hrs</option>
+                <option value="10:00" selected>10:00 hrs</option>
+                <option value="11:30">11:30 hrs</option>
+                <option value="13:30">13:30 hrs</option>
+                <option value="15:00">15:00 hrs</option>
+                <option value="16:30">16:30 hrs</option>
+                <option value="18:00">18:00 hrs</option>
+                <option value="19:30">19:30 hrs</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="step2DurationAlert" style="padding: var(--space-3); background-color: var(--color-gold-light); color: var(--color-blue-night); border-radius: var(--radius-sm); font-size: var(--text-xs);">
+            <!-- Llenado dinámico con la duración estimada total -->
+          </div>
+        </div>
+
+        <!-- PASO 3: Datos del Cliente -->
+        <div class="booking-step-view" id="bookingStepView3" style="display: none;">
+          <h4 style="font-size: var(--text-base); color: var(--color-blue-night); margin-bottom: var(--space-2);">
+            Paso 3: ¿Dónde y a nombre de quién coordinamos?
+          </h4>
+          <p style="font-size: var(--text-xs); color: var(--color-text-reading); margin-bottom: var(--space-4);">
+            Solicitamos únicamente la información esencial para gestionar la llegada de la terapeuta.
+          </p>
+
+          <div id="bookingStepErrorBox3" class="booking-step-error"></div>
+
+          <div class="grid grid-2" style="gap: var(--space-3);">
+            <div class="form-group">
+              <label for="step3Name" class="form-label">Nombre y Apellido <span class="required-indicator">*</span></label>
+              <input type="text" id="step3Name" class="form-input" placeholder="Tu nombre" required autocomplete="name">
+            </div>
+
+            <div class="form-group">
+              <label for="step3Phone" class="form-label">WhatsApp de contacto <span class="required-indicator">*</span></label>
+              <input type="tel" id="step3Phone" class="form-input" placeholder="986 820 428" required autocomplete="tel">
+            </div>
+          </div>
+
+          <div class="grid grid-2" style="gap: var(--space-3);">
+            <div class="form-group">
+              <label for="step3LocationType" class="form-label">Tipo de Ubicación <span class="required-indicator">*</span></label>
+              <select id="step3LocationType" class="form-select" required>
+                <option value="Casa de Playa / Condominio (Sur)">Casa de Playa / Condominio (Sur)</option>
+                <option value="Domicilio en Lima Metropolitana">Domicilio en Lima Metropolitana</option>
+                <option value="Espacio terapéutico concertado">Espacio terapéutico concertado</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="step3Address" class="form-label">Dirección / Condominio / Lote <span class="required-indicator">*</span></label>
+              <input type="text" id="step3Address" class="form-input" placeholder="Ej: Condominio Playa Blanca, Lote 14" required>
+            </div>
+          </div>
+
+          <div class="grid grid-2" style="gap: var(--space-3);">
+            <div class="form-group">
+              <label for="step3Coupon" class="form-label">Cupón de Ruleta (opcional)</label>
+              <input type="text" id="step3Coupon" class="form-input" placeholder="Código de descuento si ganaste">
+            </div>
+
+            <div class="form-group">
+              <label for="step3Email" class="form-label">Correo electrónico (opcional)</label>
+              <input type="email" id="step3Email" class="form-input" placeholder="tu@correo.com">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="step3Notes" class="form-label">Observaciones o preferencias de presión (opcional)</label>
+            <input type="text" id="step3Notes" class="form-input" placeholder="Ej: Fuerte dolor en zona lumbar, preferencia de presión suave">
+          </div>
+
+          <div class="form-group">
+            <label class="form-checkbox-label">
+              <input type="checkbox" id="step3Consent" class="form-checkbox" checked required>
+              <span style="font-size: var(--text-xs);">Confirmo que dispongo de espacio suficiente para la camilla (~2x2m) y autorizo la coordinación por WhatsApp.</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- PASO 4: Resumen y Envío por WhatsApp -->
+        <div class="booking-step-view" id="bookingStepView4" style="display: none;">
+          <h4 style="font-size: var(--text-base); color: var(--color-blue-night); margin-bottom: var(--space-2);">
+            Paso 4: Revisa tu resumen antes de solicitar
+          </h4>
+          <p style="font-size: var(--text-xs); color: var(--color-text-reading); margin-bottom: var(--space-4);">
+            Al hacer clic en el botón, se abrirá WhatsApp con el mensaje estructurado para que nuestra terapeuta te confirme la disponibilidad.
+          </p>
+
+          <div id="step4SummaryContent" style="margin-bottom: var(--space-4);"></div>
+        </div>
+      </div>
+
+      <div class="modal-footer" style="justify-content: space-between;">
+        <button type="button" class="btn btn-outline btn-sm" id="bookingStepPrev" style="display: none;">
+          ← Volver
+        </button>
+        <div style="display: flex; gap: var(--space-2); margin-left: auto;">
+          <button type="button" class="btn btn-primary" id="bookingStepNext">
+            Continuar →
+          </button>
+          <button type="button" class="btn btn-whatsapp" id="bookingBtnWhatsApp" style="display: none;">
+            💬 Enviar Solicitud por WhatsApp
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       DRAWER LATERAL DEL CARRITO UNIFICADO
+       ========================================================================== -->
+  <div class="cart-drawer-overlay" id="cartDrawerOverlay" aria-hidden="true"></div>
+  <aside class="cart-drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-label="Carrito de compras y masajes" aria-hidden="true">
+    <div class="cart-drawer-header">
+      <h3 class="cart-drawer-title">Tu Carrito</h3>
+      <button type="button" class="modal-close-btn" id="btnCartDrawerClose" aria-label="Cerrar carrito">
+        ✕
+      </button>
+    </div>
+
+    <!-- Estado vacío -->
+    <div id="cartDrawerEmptyState" style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; padding: 2rem; text-align: center; color: var(--color-text-reading);">
+      <span style="font-size: 3rem; margin-bottom: 1rem;">🛒</span>
+      <h4 style="color: var(--color-blue-night); margin-bottom: 0.5rem;">Tu carrito está vacío</h4>
+      <p style="font-size: var(--text-xs); margin-bottom: 1.5rem;">Explora nuestros 23 masajes a S/ 100 o nuestra tienda de productos botánicos.</p>
+      <button type="button" class="btn btn-primary btn-sm" id="btnCartExplore">Ver Catálogo</button>
+    </div>
+
+    <!-- Lista de ítems -->
+    <div class="cart-drawer-body" id="cartDrawerItemsContainer"></div>
+
+    <!-- Pie del carrito -->
+    <div class="cart-drawer-footer" id="cartDrawerFooter" style="display: none;">
+      <div class="cart-drawer-total-row">
+        <span class="cart-drawer-total-label">Total:</span>
+        <span class="cart-drawer-total-amount" id="cartDrawerTotalAmount">S/ 0</span>
+      </div>
+      <div class="cart-drawer-details" id="cartDrawerSummaryDetails"></div>
+
+      <div style="display: flex; flex-direction: column; gap: var(--space-2);">
+        <button type="button" class="btn btn-whatsapp btn-block" id="btnCartCheckout">
+          💬 Finalizar Pedido por WhatsApp
+        </button>
+        <button type="button" class="btn btn-outline btn-sm btn-block" id="btnCartClear" style="color: var(--color-text-reading);">
+          Vaciar carrito
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MODAL LIGHTBOX DE GALERÍA -->
+  <div class="modal-overlay" id="galleryLightbox" role="dialog" aria-modal="true" aria-label="Visualizador de imágenes" aria-hidden="true">
+    <div style="position: relative; max-width: 900px; width: 100%; display: flex; flex-direction: column; align-items: center;">
+      <button type="button" id="lightboxClose" class="modal-close-btn" style="position: absolute; top: -40px; right: 0; color: #FFF;" aria-label="Cerrar visor">
+        ✕
+      </button>
+
+      <div style="position: relative; width: 100%; background: #000; border-radius: var(--radius-md); overflow: hidden; display: flex; align-items: center; justify-content: center;">
+        <img id="lightboxImage" src="" alt="" style="max-height: 80vh; width: auto; max-width: 100%; object-fit: contain;">
+
+        <button type="button" id="lightboxPrev" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: #FFF; border: none; padding: 12px; border-radius: 50%; cursor: pointer;" aria-label="Imagen anterior">❮</button>
+        <button type="button" id="lightboxNext" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: #FFF; border: none; padding: 12px; border-radius: 50%; cursor: pointer;" aria-label="Siguiente imagen">❯</button>
+      </div>
+
+      <p id="lightboxCaption" style="color: #FFFFFF; font-size: var(--text-sm); margin-top: var(--space-3); text-align: center;"></p>
+    </div>
+  </div>
+
+  <!-- MODAL DE CRM OPERATIVO SEGURO -->
+  <div class="modal-overlay" id="crmModal" role="dialog" aria-modal="true" aria-labelledby="crmModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-large">
+      <div class="modal-header">
+        <h3 class="modal-title" id="crmModalTitle" style="color: var(--color-blue-night);">Panel Operativo Triny Masajes</h3>
+        <button type="button" class="modal-close-btn" id="crmModalClose" aria-label="Cerrar panel CRM">
+          ✕
+        </button>
+      </div>
+
+      <!-- Sección Login (si no está autenticado) -->
+      <div id="crmLoginSection" class="modal-body" style="max-width: 400px; margin: 0 auto;">
+        <h4 style="text-align: center; margin-bottom: var(--space-2); color: var(--color-blue-night);">Acceso Autorizado</h4>
+        <p style="font-size: var(--text-xs); color: var(--color-text-reading); text-align: center; margin-bottom: var(--space-4);">
+          Ingresa credenciales de administración. Protegido por cookies HttpOnly seguras del servidor.
+        </p>
+
+        <div id="crmLoginAlert" class="alert alert-error" style="display: none;"></div>
+
+        <form id="crmLoginForm" novalidate>
+          <div class="form-group">
+            <label for="crmUsername" class="form-label">Usuario</label>
+            <input type="text" id="crmUsername" name="crmUsername" class="form-input" required autocomplete="username">
+          </div>
+          <div class="form-group">
+            <label for="crmPassword" class="form-label">Contraseña</label>
+            <input type="password" id="crmPassword" name="crmPassword" class="form-input" required autocomplete="current-password">
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Ingresar al Sistema</button>
+        </form>
+      </div>
+
+      <!-- Sección Dashboard (autenticado) -->
+      <div id="crmDashboardSection" class="modal-body" style="display: none;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-4); border-bottom: 1px solid var(--color-border-light); padding-bottom: var(--space-3);">
+          <div style="display: flex; gap: var(--space-2);">
+            <button type="button" id="crmTabBookings" class="btn btn-sm btn-outline active">Reservas</button>
+            <button type="button" id="crmTabInquiries" class="btn btn-sm btn-outline">Consultas Webhook 2</button>
+          </div>
+          <div style="display: flex; gap: var(--space-2);">
+            <button type="button" id="crmExportCsvBtn" class="btn btn-sm btn-outline">Exportar CSV Seguro</button>
+            <button type="button" id="crmBtnLogout" class="btn btn-sm btn-secondary">Cerrar Sesión</button>
+          </div>
+        </div>
+
+        <!-- Vista Reservas -->
+        <div id="crmViewBookings">
+          <div style="overflow-x: auto;">
+            <table style="width: 100%; border-collapse: collapse; font-size: var(--text-xs);">
+              <thead>
+                <tr style="background: var(--color-bg-secondary); text-align: left;">
+                  <th style="padding: 8px;">ID</th>
+                  <th style="padding: 8px;">Cliente</th>
+                  <th style="padding: 8px;">Servicios Solicitados</th>
+                  <th style="padding: 8px;">Programación</th>
+                  <th style="padding: 8px;">Monto Total</th>
+                  <th style="padding: 8px;">Estado</th>
+                </tr>
+              </thead>
+              <tbody id="crmBookingsTbody">
+                <!-- Inyección segura vía crm.js -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Vista Consultas -->
+        <div id="crmViewInquiries" style="display: none;">
+          <div style="overflow-x: auto;">
+            <table style="width: 100%; border-collapse: collapse; font-size: var(--text-xs);">
+              <thead>
+                <tr style="background: var(--color-bg-secondary); text-align: left;">
+                  <th style="padding: 8px;">Fecha</th>
+                  <th style="padding: 8px;">Remitente</th>
+                  <th style="padding: 8px;">Teléfono</th>
+                  <th style="padding: 8px;">Asunto</th>
+                  <th style="padding: 8px;">Mensaje</th>
+                </tr>
+              </thead>
+              <tbody id="crmInquiriesTbody">
+                <!-- Inyección segura vía crm.js -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Módulos JavaScript (ES6 Modules) -->
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+# robots.txt para Triny Masajes
+User-agent: *
+Allow: /
+Disallow: /backend/
+Disallow: /api/
+Disallow: /tests/
+
+Sitemap: https://trinymasajes.com/sitemap.xml
+
